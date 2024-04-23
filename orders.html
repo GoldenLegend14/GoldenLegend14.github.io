@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UnDauntedDesignLLC Home</title>
+    <link rel="stylesheet" href="Undaunted.css">
+</head>
+
+<body>
+    <div id="wrapper">
+        <header>
+            UnDauntedDesignsLLC
+        </header>
+        <div>
+            <img src="images/undaunted.jpg" style="width: 100%;" alt="Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="orders.html">Order Here</a> </li>
+                <li><a href="products.html">Products</a> </li>
+            </ul>
+        </nav>
+        <main>
+            <h2>All required fields will contain and Asterisk *</h2>
+
+                <h2>Please place your orders here.</h2>
+                <form action="https://webdevbasics.net/scripts/demo.php" method="post">
+                    <Label for="myFName">*First Name</Label>
+                    <input type="text" name="myFName" id="myFName" required="required">
+                    <Label for="myLName">*Last Name</Label>
+                    <input type="text" name="myLName" id="myLName" required="required">
+                    <label for="myEmail">*Email Address</label>
+                    <input type="email" name="myEmail" id="myEmail" required="required">
+                    <label for="myProducts">*Product</label>
+                    <select size="1" name="myProducts" id="myProducts" required="required">
+                        <option >Product</option>
+                        <option value="Tumbler20">Tumbler 20oz</option>
+                        <option value="Tumbler30">Tumbler 30oz</option>
+                        <option value="E_mug">Etched mug</option>
+                        <option value="Libbey">Libbey Glass Cup</option>
+                        <option value="mug">Mug</option>
+                        <option value="Quince">Mis Quince Shot Glasses</option>
+                        <option value="KeyChain">Mis Quince Key Chain</option>
+                    </select>
+                    <label for="myComments">Please provide any specific requests for the item </label>
+                    <textarea name="myComments" id="myComments" cols="30" rows="10"></textarea>
+                    <label for="myImage">Provide Image</label>
+                    <input type="file" name="myIMage" id="myImage">
+                    <input type="submit">
+                </form>
+        </main>
+        <footer>
+            Copyright &copy; UnDauntedDesignLLC
+            <br>
+            <a href="mailto:@undaunteddesignsllc">@undaunteddesignsllc</a>
+        </footer>
+    </div>
+</body>
+
+</html>
